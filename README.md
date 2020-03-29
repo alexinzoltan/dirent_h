@@ -21,3 +21,5 @@ implements the following functions:
 - scandir
 - alphasort
 - versionsort
+
+instead of including the whole windows.h I recommend to include only the absolutely necessary part of windows.h.
