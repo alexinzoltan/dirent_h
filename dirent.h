@@ -33,9 +33,12 @@ SOFTWARE.
 extern "C" {
 #endif /* __cplusplus */
 
-#include <sys/types.h>
-
+#define	WIN32_LEAN_AND_MEAN
 #include <Windows.h>
+#include <winioctl.h>
+
+#include <sys/types.h>
+#include <stdlib.h>
 
 #ifndef NAME_MAX
 #define NAME_MAX 260
